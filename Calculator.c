@@ -32,11 +32,9 @@ void Division() {
     scanf("%d", &num1);
     printf("Enter your num2: ");
     scanf("%d", &num2);
-    if (num2 != 0) {
+   
         printf("The sum of %d and %d is: %.2f\n", num1, num2, (float)num1 / num2);
-    } else {
-        printf("Error: Division by zero is not allowed.\n");
-    }
+    
 }
 
 void Modulow() {
@@ -45,11 +43,9 @@ void Modulow() {
     scanf("%d", &num1);
     printf("Enter your num2: ");
     scanf("%d", &num2);
-    if (num2 != 0) {
+    
         printf("The modulus of %d and %d is: %d\n", num1, num2, num1 % num2);
-    } else {
-        printf("Error: Division by zero is not allowed.\n");
-    }
+    
 }
 
 
